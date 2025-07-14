@@ -3,14 +3,14 @@ Frigate: A Novel Dataset Comprising Wide Field-of-View Astronomical FITS Images 
 
 # Overview
 
-This repository provides a modular pipeline for processing raw astronomical imaging data - specifically FITS files such as those in the frigate dataset - into enhanced difference images suitable for streak detection and annotation. The data used typically consists of time-sequenced space surveillance images in .fits format, which may contain fast-moving orbital debris or artificial satellites represented as streaks.
+This repository provides the associated pipeline for processing raw astronomical imaging data - specifically FITS files such as those in the frigate dataset (avaiable at: TBC)- into enhanced difference images suitable for streak detection and annotation. The data used typically consists of time-sequenced space surveillance images in .fits format, which may contain fast-moving orbital debris or artificial satellites represented as streaks.
 
-The primary goal of this pipeline is to:
-	•	Load and inspect FITS image data,
-	•	Extract and display metadata,
-	•	Perform preprocessing steps including background leveling and contrast adjustment,
-	•	Generate difference images from consecutive frames to isolate motion artifacts,
-	•	(In development) Automatically detect and annotate streaks using edge detection and line fitting techniques.
+The primary goal of this pipeline is to:  
+	•	Load and inspect FITS image data  
+	•	Extract and display metadata  
+	•	Perform preprocessing steps including background leveling and contrast adjustment  
+	•	Generate difference images from consecutive frames to isolate motion artifacts  
+	•	(In development) Automatically detect and annotate streaks using edge detection and line fitting techniques.  
 
 This system is useful in contexts such as optical space surveillance, orbital debris research, and training data generation for object detection models.
 
@@ -43,12 +43,12 @@ Note: As of this release, annotate.py is under active development and may not ye
 
 # Requirements
 
-The scripts rely on the following Python libraries:
-	•	numpy
-	•	matplotlib
-	•	opencv-python
-	•	astropy
-	•	scikit-image
+The scripts rely on the following Python libraries:   
+	•	numpy  
+	•	matplotlib  
+	•	opencv-python  
+	•	astropy  
+	•	scikit-image  
 
 To install the required dependencies, you may use:
 
