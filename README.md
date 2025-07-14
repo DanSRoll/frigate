@@ -43,13 +43,17 @@ Note: As of this release, annotate.py is under active development and may not ye
 
 # Requirements
 
-The scripts rely on the following Python libraries:   
+The code was executed in a Conda enviroment using Jupyter Notebooks. To build a similar enviroment, please use the environment.yml file:
+
+conda env create -f environment.yml
+
+The scripts rely on a number of libraries, including the following:   
 	•	numpy  
 	•	matplotlib  
 	•	opencv-python  
 	•	astropy  
 	•	scikit-image  
 
-To install the required dependencies, you may use:
+To install all required dependencies, you may use:
 
 pip install -r requirements.txt
